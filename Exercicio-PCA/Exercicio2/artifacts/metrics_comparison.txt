@@ -1,0 +1,27 @@
+COMPARAÇÃO DE MODELOS - CALIFORNIA HOUSING
+==================================================
+
+MODELO SEM PCA:
+  MAE: 0.3675
+  RMSE: 0.5428
+  R2: 0.7752
+  CV R² (média): 0.7696
+  CV R² (std): 0.0083
+
+MODELO COM PCA:
+  MAE: 0.4609
+  RMSE: 0.6455
+  R2: 0.6821
+  CV R² (média): 0.6853
+  CV R² (std): 0.0035
+
+ANÁLISE DE DIMENSIONALIDADE:
+  Features originais: 8
+  Features após PCA: 6
+  Redução: 25.0%
+  Variância mantida: 95%
+
+MELHORIA COM PCA:
+  MAE: -25.40%
+  RMSE: -18.92%
+  R²: -12.01%
